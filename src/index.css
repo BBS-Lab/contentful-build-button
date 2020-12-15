@@ -1,0 +1,30 @@
+html,
+body,
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.container-width {
+    width: 100%;
+    height: 180px;
+    margin: auto;
+}
+
+.dropdownwidth {
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    padding-top: 1rem;
+}
+
+img {
+    display: block;
+    position: relative;
+}

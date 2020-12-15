@@ -1,0 +1,30 @@
+{
+  "id": "build-button",
+  "name": "Compile application",
+  "srcdoc": "./build/index.html",
+  "sidebar": true,
+  "parameters": {
+    "installation": [
+      {
+        "id": "buildWebhookUrlPreprod",
+        "type": "Symbol",
+        "name": "Webhook de compilation CI preprod"
+      },
+      {
+        "id": "statusWebhookUrlPreprod",
+        "type": "Symbol",
+        "name": "Badge url preprod"
+      },
+      {
+        "id": "buildWebhookUrlProd",
+        "type": "Symbol",
+        "name": "Webhook de compilation CI production"
+      },
+      {
+        "id": "statusWebhookUrlProd",
+        "type": "Symbol",
+        "name": "Badge url production"
+      }
+    ]
+  }
+}
